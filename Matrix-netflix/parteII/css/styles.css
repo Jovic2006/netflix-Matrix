@@ -1,0 +1,166 @@
+
+
+body {
+  background: black;
+  color: white;
+  margin: 0;
+  font-family: Netflix;
+  background-size: cover;
+}
+.video-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 25%;
+  overflow: hidden;
+}
+
+video {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -0%);
+}
+.flecha{
+  margin: 0px 15px;
+
+}
+
+.btn-a{
+  background-color: #af9eab;
+  color: white;
+  padding: 15px 15px;
+  height: 300%;
+  width: 97.3%;
+  margin: 2px 15px;
+  margin-left: 7px 15px;
+  text-decoration:  none;
+  display: inline-block;
+  font-size: 30px;
+  text-align: center;
+  display: block; /* Asegura que el botón se comporte como un bloque, ocupando el 100% del contenedor */
+  box-sizing: border-box;
+}
+.btn-b{
+  background-color: #999999;
+  color:white;
+  padding: 15px 15px;
+  height: 300%;
+  width: 97.3%;
+  margin: 2px 15px;
+  margin-left: 7px 15px;
+  text-decoration:  none;
+  display: inline-block;
+  font-size: 30px;
+  text-align: center;
+  display: block; /* Asegura que el botón se comporte como un bloque, ocupando el 100% del contenedor */
+  box-sizing: border-box;
+  
+  
+  
+ 
+}
+.icono-1{
+  height: 10px;
+}
+
+.contenedor{
+  display: flex;
+}
+.imagen{
+  width: 35px;
+  height: 35px;
+  margin: 0px 15px;
+  float: left;
+}
+
+.text{
+  margin: 0px 15px;
+}
+.text-1 {
+  margin: 0px 15px;
+  color: rgb(42, 223, 42);
+}
+.text-2{
+    margin: 5px;
+}
+.text-3{
+  margin: 5px;
+}
+.datos{
+  display: flexbox;
+}
+.parrafo{
+  font-size: 25px;
+}
+.h2{
+  font-size: 25px;
+}
+.dato-1{
+  margin: 0px 15px ;
+  align-items: center;
+}
+.dato-2{
+  margin: 0px 15px;
+  align-items: center;
+}
+.dato-3{
+  margin: 0px 15px;
+  align-items: center;
+}
+.container-1{
+  display: flex;
+
+  justify-content: center;
+  margin-top: 30px;
+
+}
+.img-01{
+  width: 50px;
+  margin: 0 15px;
+}
+.card{
+  text-align: center;
+  box-shadow: rgb(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 0px 65px;
+}
+.card h1{
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.botones{
+  color: black;
+}
+
+.nombre{
+  margin: 0px 15px;
+}
+.list-content {
+  white-space: nowrap;
+  overflow-x: auto;
+  max-width: 100%;
+  height: auto;
+}
+.list-item {
+  display: inline-block;
+  margin-left: 10px;
+}
+.list-item:first-child {
+  margin: 0;
+}
+
+.list {
+  padding: 0 1em;
+  max-width: 100%;
+  height: auto;
+}
+.Adios{
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 0 0 red;
+
+}
